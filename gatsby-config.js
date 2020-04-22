@@ -3,6 +3,7 @@ module.exports = {
     title: `Go Up`,
     description: ``,
     author: ``,
+    siteUrl: `https://goup26.now.sh/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
