@@ -46,6 +46,7 @@ const IndexPage = props => {
       <SEO title="26 Go Up Moments" />
       <Header refreshImages={refreshImages} />
       <div className="container">
+        <h1>26 Go Up Moments</h1>
         <div className="container__items">
           {displayImages.map((imageData, i) => (
             <PolaroidItem key={imageData.id} data={imageData} number={i + 1} />
