@@ -42,7 +42,7 @@ const Header = ({ siteTitle, refreshImages }) => (
         style={{
           position: "absolute",
           right: "20px",
-          top: "calc(50% - 12px",
+          top: "calc(50% - 12px)",
           width: "25px",
           cursor: "pointer",
         }}
