@@ -2,7 +2,7 @@
   "name": "gatsby-goup-26",
   "private": true,
   "description": "26 Gp Up moments",
-  "version": "0.26",
+  "version": "2.6.0",
   "author": "David Levente Dozsa <david@goup.co.uk>",
   "dependencies": {
     "gatsby": "^2.19.7",
