@@ -1,0 +1,59 @@
+$white: white;
+$background-color: #f2f2f2;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poor Story", cursive;
+  background: $background-color;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+
+  &__items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+}
+
+.polaroid {
+  margin: 30px;
+  width: 400px;
+  height: 450px;
+  background-color: $white;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0, 0, 0, 0.2);
+
+  &__content {
+    &-image {
+      height: 350px;
+      width: 100%;
+      overflow: hidden;
+      & > div {
+        height: 100%;
+        width: 100%;
+      }
+      & > img {
+        height: 100%;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+    }
+
+    &-caption {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 25px;
+      font-size: 25px;
+    }
+  }
+}
